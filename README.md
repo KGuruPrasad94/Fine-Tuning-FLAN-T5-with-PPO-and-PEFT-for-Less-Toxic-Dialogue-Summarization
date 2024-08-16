@@ -1,34 +1,32 @@
-Project Overview
+# **Exploring Dialogue Summarization with FLAN-T5**
 
-This project explores Generative AI techniques for dialogue summarization using the FLAN-T5 model. Key focus areas include prompt engineering, model fine-tuning (including Parameter Efficient Fine-Tuning or PEFT), and reducing toxicity in generated content through Reinforcement Learning (PPO).
+## **Project Overview**
 
-Learning Journey
+This project is an exciting dive into the world of Generative AI, where I focused on using the FLAN-T5 model for dialogue summarization. Along the way, I explored various techniques like prompt engineering, fine-tuning, and even reducing the toxicity of generated content. The journey also involved working with advanced methods like Parameter Efficient Fine-Tuning (PEFT) and Proximal Policy Optimization (PPO).
 
-1. Generative AI Use Case: Summarize Dialogue
+## **Notebooks Overview**
 
-	•	Objective: Understand the impact of prompt engineering on model outputs.
-	•	Key Activities:
-	•	Experimented with zero-shot, one-shot, and few-shot inferences.
-	•	Adjusted generative configuration parameters.
+### **1. Generative AI Use Case: Summarize Dialogue**
+- **Objective:** I wanted to see how different prompts can shape the output of the model and learned to craft inputs that guide the model towards better summaries.
+- **Key Activities:**
+  - Played around with zero-shot, one-shot, and few-shot inferences to understand their impact.
+  - Experimented with prompt engineering to improve the quality of the summaries.
 
-2. Fine-Tuning FLAN-T5 for Enhanced Summarization
+### **2. Fine-Tuning FLAN-T5 for Enhanced Summarization**
+- **Objective:** I dove into fine-tuning to see how I could make the FLAN-T5 model even better at summarizing dialogues.
+- **Key Activities:**
+  - Conducted full fine-tuning of the model, which was a great hands-on experience.
+  - Implemented PEFT using LoRA, making the process more resource-efficient.
+  - Evaluated the results using ROUGE metrics and also did some human reviews to see how well the model performed.
 
-	•	Objective: Improve dialogue summarization through fine-tuning.
-	•	Key Activities:
-	•	Performed full fine-tuning of the FLAN-T5 model.
-	•	Implemented Parameter Efficient Fine-Tuning (PEFT) using LoRA.
-	•	Evaluated performance using ROUGE metrics and human feedback.
+### **3. Reducing Toxicity with PPO**
+- **Objective:** This part was all about making the model's summaries less toxic by using reinforcement learning techniques.
+- **Key Activities:**
+  - Applied PPO in combination with Meta AI's hate speech reward model to guide the model in generating safer content.
+  - Focused on evaluating and fine-tuning the model to ensure it produced more ethical and responsible outputs.
 
-3. Reducing Toxicity with PPO
-
-	•	Objective: Minimize toxicity in model-generated summaries.
-	•	Key Activities:
-	•	Fine-tuned the model using Proximal Policy Optimization (PPO) and Meta AI’s hate speech reward model.
-	•	Evaluated and optimized for ethical AI behavior.
-
-Key Concepts and Techniques
-
-	•	Prompt Engineering: Crafting prompts to influence model outputs.
-	•	Parameter Efficient Fine-Tuning (PEFT): Efficiently fine-tuning models with minimal resources.
-	•	Proximal Policy Optimization (PPO): Applying reinforcement learning to optimize model behavior.
-	•	ROUGE Metrics: Quantitative evaluation of summary quality.
+## **Key Concepts and Techniques**
+- **Prompt Engineering:** Learned how to create prompts that effectively guide the model's output.
+- **Parameter Efficient Fine-Tuning (PEFT):** Discovered how to fine-tune models efficiently without needing huge computational resources.
+- **Proximal Policy Optimization (PPO):** Used reinforcement learning to improve the quality and ethics of the generated content.
+- **Evaluation:** Employed ROUGE Metrics to assess how well the summaries matched reference texts, giving a quantitative measure of success.
