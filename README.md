@@ -31,9 +31,10 @@ This project is an exciting dive into the world of Generative AI, where I focuse
 - **Hugging Face Transformers:** The library used for implementing and fine-tuning the FLAN-T5 model.
 - **Python:** The primary programming language used throughout the project.
 - **PyTorch:** The deep learning framework used to fine-tune the model.
+- **Meta AI's Hate Speech Reward Model:** Used to guide the model towards generating less-toxic outputs.
 
-## **Key Concepts and Techniques**
+## **Key Concepts and Techniques Learned**
 - **Prompt Engineering:** Learned how to create prompts that effectively guide the model's output.
-- **Parameter Efficient Fine-Tuning (PEFT):** Discovered how to fine-tune models efficiently without needing huge computational resources.
+- **Parameter Efficient Fine-Tuning (PEFT):** Implemented using LoRA to make the fine-tuning process more efficient
 - **Proximal Policy Optimization (PPO):** Used reinforcement learning to improve the quality and ethics of the generated content.
 - **Evaluation:** Employed ROUGE Metrics to assess how well the summaries matched reference texts, giving a quantitative measure of success.
