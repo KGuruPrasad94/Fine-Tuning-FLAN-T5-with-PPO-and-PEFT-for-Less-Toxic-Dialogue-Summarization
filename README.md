@@ -24,6 +24,13 @@ This project is an exciting dive into the world of Generative AI, where I focuse
 - **Key Activities:**
   - Applied PPO in combination with Meta AI's hate speech reward model to guide the model in generating safer content.
   - Focused on evaluating and fine-tuning the model to ensure it produced more ethical and responsible outputs.
+ 
+## **Technologies Used**
+
+- **FLAN-T5 Model:** A powerful language model used for dialogue summarization.
+- **Hugging Face Transformers:** The library used for implementing and fine-tuning the FLAN-T5 model.
+- **Python:** The primary programming language used throughout the project.
+- **PyTorch:** The deep learning framework used to fine-tune the model.
 
 ## **Key Concepts and Techniques**
 - **Prompt Engineering:** Learned how to create prompts that effectively guide the model's output.
